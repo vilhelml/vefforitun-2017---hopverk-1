@@ -1,0 +1,174 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -($gutter / 2);
+  margin-bottom: $gutter;
+  margin-left: -($gutter / 2);
+}
+
+// mixin sem reiknar nákvæmar prósentur útfrá dálkum
+@mixin columns($col: 1) {
+  // margföldum með "1%" til að breyta gildi í prósentu gildi
+  width: ($col / 12 * 100) * 1%;
+}
+
+.col {
+  display: flex;
+  padding: $gutter / 2;
+
+  &-12 {
+    @include columns(12);
+  }
+
+  &-11 {
+    @include columns(11);
+  }
+
+  &-10 {
+    @include columns(10);
+  }
+
+  &-9 {
+    @include columns(9);
+  }
+
+  &-8 {
+    @include columns(8);
+  }
+
+  &-7 {
+    @include columns(7);
+  }
+
+  &-6 {
+    @include columns(6);
+  }
+
+  &-5 {
+    @include columns(5);
+  }
+
+  &-4 {
+    @include columns(4);
+  }
+
+  &-3 {
+    @include columns(3);
+  }
+
+  &-2 {
+    @include columns(2);
+  }
+
+  &-1 {
+    @include columns(1);
+  }
+
+  &-md {
+    @media (max-width: $medium-width) {
+      &-12 {
+        @include columns(12);
+      }
+
+      &-11 {
+        @include columns(11);
+      }
+
+      &-10 {
+        @include columns(10);
+      }
+
+      &-9 {
+        @include columns(9);
+      }
+
+      &-8 {
+        @include columns(8);
+      }
+
+      &-7 {
+        @include columns(7);
+      }
+
+      &-6 {
+        @include columns(6);
+      }
+
+      &-5 {
+        @include columns(5);
+      }
+
+      &-4 {
+        @include columns(4);
+      }
+
+      &-3 {
+        @include columns(3);
+      }
+
+      &-2 {
+        @include columns(2);
+      }
+
+      &-1 {
+        @include columns(1);
+      }
+    }
+  }
+
+  &-sm {
+    @media (max-width: $small-width) {
+      &-12 {
+        @include columns(12);
+      }
+
+      &-11 {
+        @include columns(11);
+      }
+
+      &-10 {
+        @include columns(10);
+      }
+
+      &-9 {
+        @include columns(9);
+      }
+
+      &-8 {
+        @include columns(8);
+      }
+
+      &-7 {
+        @include columns(7);
+      }
+
+      &-6 {
+        @include columns(6);
+      }
+
+      &-5 {
+        @include columns(5);
+      }
+
+      &-4 {
+        @include columns(4);
+      }
+
+      &-3 {
+        @include columns(3);
+      }
+
+      &-2 {
+        @include columns(2);
+      }
+
+      &-1 {
+        @include columns(1);
+      }
+    }
+  }
+}
+
+.offset {
+  // todo útfæra offset
+}

@@ -38,8 +38,8 @@ img { /* stylelint-disable-line */
 }
 
 main { /* stylelint-disable-line */
-  max-width: $max-width;
   min-width: $small-width;
+  max-width: $max-width;
   margin: 0 auto;
 
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
@@ -47,6 +47,8 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
+@import "scss/button";
+@import "scss/footer";
 @import "scss/grid";
 @import "scss/header";
 @import "scss/heading";
