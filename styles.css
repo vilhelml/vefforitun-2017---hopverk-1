@@ -1,3 +1,63 @@
+@charset "UTF-8";
+/* setjum box-sizing: border-box; á allt */
+html {
+  /* stylelint-disable-line a
+  box-sizing: border-box;
+}
+
+*, *:before, *:after { /* stylelint-disable-line */
+  box-sizing: inherit;
+  /* fjarlægjum margin og padding */
+  padding: 0;
+  margin: 0; }
+
+html {
+  /* stylelint-disable-line */
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 1200px) {
+    html {
+      margin: 0; } }
+
+img {
+  /* stylelint-disable-line */
+  max-width: 100%; }
+
+main {
+  /* stylelint-disable-line */
+  min-width: 400px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.heading {
+  width: 100%;
+  padding: 0;
+  font-family: Merriweather, georgia, serif;
+  font-size: 2rem;
+  border: 0; }
+  .heading--one {
+    font-size: 3rem; }
+  .heading--two {
+    font-size: 2rem;
+    color: #00f; }
+  .heading--three {
+    font-size: 1rem; }
+
 .header {
   /* stylelint-disable-line */
   display: flex;
@@ -11,3 +71,35 @@
     background: transparent url("bg.jpg") no-repeat fixed 0 0; }
   .header__purchase {
     background: transparent url("bg.jpg") no-repeat fixed 0 0; }
+
+.button {
+  display: inline-block;
+  width: 100%;
+  max-width: 256px;
+  padding: 10px 5px;
+  margin: 0;
+  overflow: hidden;
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 4px;
+  transition: background-color 500ms, color 500ms; }
+  .button:hover {
+    color: #eee;
+    background-color: #333; }
+
+/*
+@import "scss/menu";
+@import "scss/heading";
+@import "scss/grid";
+@import "scss/header";
+@import "scss/button";
+@import "scss/footer";
+*/
