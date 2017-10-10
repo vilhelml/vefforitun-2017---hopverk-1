@@ -5,15 +5,24 @@
   margin-bottom: 2em;
   background-size: cover;
 
-  &__index {
+  &--index {
+    display: flex;
+    justify-content: center;
+    background: transparent url("bg.jpg") no-repeat fixed 0 0;
+
+    &__title {
+      display: flex;
+      padding: 15px;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &--about {
     background: transparent url("bg.jpg") no-repeat fixed 0 0;
   }
 
-  &__about {
-    background: transparent url("bg.jpg") no-repeat fixed 0 0;
-  }
-
-  &__purchase {
+  &--purchase {
     background: transparent url("bg.jpg") no-repeat fixed 0 0;
   }
 }
