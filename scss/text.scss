@@ -1,0 +1,15 @@
+.text {
+  &__p {
+    padding-bottom: $gutter;
+  }
+
+  &__row {
+    display: flex;
+    margin-bottom: $gutter;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+}
