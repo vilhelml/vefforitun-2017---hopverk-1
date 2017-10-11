@@ -5,9 +5,8 @@
   background-size: cover;
 
   &--index {
-    display: flex;
     justify-content: center;
-    background: transparent url("bg.jpg") no-repeat fixed 0 0;
+    background: transparent url("img/bg.jpg") no-repeat fixed 50% 50%;
 
     &__title {
       display: flex;
@@ -18,10 +17,10 @@
   }
 
   &--about {
-    background: transparent url("bg-subpage.jpg") no-repeat fixed 0 0;
+    background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0;
   }
 
   &--purchase {
-    background: transparent url("bg-subpage.jpg") no-repeat fixed 0 0;
+    background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0;
   }
 }
