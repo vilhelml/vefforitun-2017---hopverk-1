@@ -24,7 +24,7 @@ html { /* stylelint-disable-line */
   margin-right: $gutter;
   margin-left: $gutter;
 
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.5;
 
@@ -39,7 +39,7 @@ img { /* stylelint-disable-line */
 
 main { /* stylelint-disable-line */
   min-width: $small-width;
-  max-width: $max-width;
+  //max-width: $max-width;
   margin: 0 auto;
 
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
