@@ -47,9 +47,9 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
-@import "scss/button";
-@import "scss/footer";
+@import "scss/menu";
+@import "scss/heading";
 @import "scss/grid";
 @import "scss/header";
-@import "scss/heading";
-@import "scss/menu";
+@import "scss/button";
+@import "scss/footer";
