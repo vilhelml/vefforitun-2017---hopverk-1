@@ -192,6 +192,12 @@ main {
 .form__input {
   width: 100%; }
 
-.form__col fieldset {
-  width: 100%;
-  border: 0; }
+.form__button {
+  min-width: 22vw; }
+
+.form__col {
+  display: flex;
+  justify-content: center; }
+  .form__col fieldset {
+    width: 100%;
+    border: 0; }
