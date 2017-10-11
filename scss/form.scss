@@ -1,0 +1,15 @@
+.form {
+	&__row {
+		justify-content: space-around;
+	}
+	&__input {
+		width: 100%;
+	}
+
+	&__col {
+		fieldset {
+			width: 100%;
+			border: 0;
+		}
+	}
+}

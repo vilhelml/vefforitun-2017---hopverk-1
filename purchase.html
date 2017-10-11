@@ -9,64 +9,67 @@
     <link rel="stylesheet" href="grid.css">
   </head>
   <body>
-      <header class="header header__purchase">
+    <main> 
+      <header class="header header--purchase">
         <h1>Kaupa</h1>
       </header>
-    <main> 
-      <div class="row">
+      <div class="row form__row">
 
-        <div class="col col-6 col-sm-12 form">
-          <div class="col col-4">
+          <div class="col col-4 form__col">
             <fieldset>
               <h2>
               Persónuupplýsingar
               </h2>
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Nafn:</legend>
-                <label><input type="text" name="name"></label>
+                <input class="form__input" type="text" name="name">
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Kennitala:</legend>
-                <label><input type="number" name="kennitala"></label>
+                <input class="form__input" type="number" name="kennitala">
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Kyn:</legend>
-                <div class="radio"><label><input type="radio" name="radio">Kona</label></div>
-                <div class="radio"><label><input type="radio" name="radio">Karl</label></div>
+                <div class="radio">
+                <input type="radio" name="radio">Kona</div>
+                <div class="radio">
+                <input type="radio" name="radio">Karl</div>
                 <div class="radio
-                "><label><input type="radio" name="radio">Annað</label></div>
+                ">
+                <input type="radio" name="radio">Annað</div>
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Sími:</legend>
-                <label><input type="text" name="kennitala" placeholder="+354 812 3456" pattern="+[0-9][0-9][0-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]"></label>
+                
+                <input class="form__input" type="text" name="kennitala" placeholder="+354 812 3456" pattern="+[0-9][0-9][0-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]">
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Heimilisfang:</legend>
-                <label><input type="text" name="address"></label>
+                
+                <input class="form__input" type="text" name="address">
               </div>
 
-              <div class="input">
-                <label><input type="checkbox" name="checkbox" checked>Skrá mig á póstlista</label>
+              <div class="form__div">
+                
+                <input type="checkbox" name="checkbox" checked>Skrá mig á póstlista
               </div>
 
             </fieldset>
           </div>
-        </div>
 
-        <div class="col col-6 col-sm-12 form">
-          <div class="col col-4">
+          <div class="col col-4 form__col">
             <fieldset>
               <h2>
               Greiðsluupplýsingar
               </h2>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Greiða með:</legend>
-                <select>
+                <select class="form__input">
                   <option>
                     Kreditkort
                   </option>
@@ -79,19 +82,22 @@
                 </select>
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Nafn á korti:</legend>
-                <label><input type="text" name="address"></label>
+                
+                <input class="form__input" type="text" name="address">
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Kortanúmer:</legend>
-                <label><input type=text name="address" placeholder="5999-9999-9999-9999" pattern="[0-9][0-9][0-9]-{3}[0-9][0-9][0-9][0-9]"></label>
+                
+                <input class="form__input" type=text name="address" placeholder="5999-9999-9999-9999" pattern="[0-9][0-9][0-9]-{3}[0-9][0-9][0-9][0-9]">
               </div>
 
-              <div class="input"> 
+              <div class="form__div"> 
                 <legend>Gildistími:</legend>
-                <label>Mán                 
+                
+                Mán                 
                   <select>
                     <option>
                       01
@@ -130,8 +136,9 @@
                       12
                     </option>                   
                   </select>
-                </label>
-                <label>Mán                 
+                
+                
+                Mán                 
                   <select>
                     <option>
                       2017
@@ -146,13 +153,13 @@
                       2020
                     </option>           
                   </select>
-                </label>
+                
               </div>
 
             </fieldset>
           </div>
-        </div>
-        <div class="col col-12 form">
+        
+        <div class="col col-12 form__col">
           <button class="button"> Panta </button>
         </div>
       </div>

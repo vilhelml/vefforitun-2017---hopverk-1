@@ -183,3 +183,13 @@ main {
   .button:hover {
     color: #eee;
     background-color: #333; }
+
+.form__row {
+  justify-content: space-around; }
+
+.form__input {
+  width: 100%; }
+
+.form__col fieldset {
+  width: 100%;
+  border: 0; }
