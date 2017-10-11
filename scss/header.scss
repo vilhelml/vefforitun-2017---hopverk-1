@@ -1,13 +1,13 @@
 .header {/* stylelint-disable-line */
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-  margin-bottom: 2em;
-  background-size: contain;
 
   &--index {
-    justify-content: center;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 2em;
     background: transparent url("img/bg.jpg") no-repeat fixed 50% 0;
+    background-size: contain;
+    justify-content: center;
 
     &__title {
       display: flex;

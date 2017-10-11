@@ -143,15 +143,15 @@ main {
       width: 8.33333%; } }
 
 .header {
-  /* stylelint-disable-line */
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-  margin-bottom: 2em;
-  background-size: contain; }
+  /* stylelint-disable-line */ }
   .header--index {
-    justify-content: center;
-    background: transparent url("img/bg.jpg") no-repeat fixed 50% 0; }
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 2em;
+    background: transparent url("img/bg.jpg") no-repeat fixed 50% 0;
+    background-size: contain;
+    justify-content: center; }
     .header--index__title {
       display: flex;
       padding: 15px;
