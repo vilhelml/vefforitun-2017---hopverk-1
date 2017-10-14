@@ -191,6 +191,35 @@ main {
     color: #eee;
     background-color: #333; }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #333;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .footer__row {
+    display: flex;
+    justify-content: center; }
+  .footer__col {
+    justify-content: center; }
+    .footer__col1 {
+      flex-direction: row-reverse; }
+  .footer__div {
+    display: flex;
+    padding-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; }
+  .footer__p {
+    max-width: max-content;
+    color: #fff;
+    align-self: center; }
+    .footer__p__signature {
+      color: #666; }
+  .footer__hr {
+    border-color: #fff; }
+
 .form__row {
   justify-content: space-around; }
 

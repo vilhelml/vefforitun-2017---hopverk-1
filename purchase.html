@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="grid.css">
   </head>
   <body>
-    <header class="header header--purchase">
-      <h1 class="heading heading--one">Kaupa</h1>
-    </header>
     <main>
+
+      <header class="header header--purchase">
+        <h1 class="heading heading--one">Kaupa</h1>
+      </header>
 
       <div class="menu">
         <div class="menu__title">
-            Fooþjónustan
+            <h2 class="heading heading--two"> Fooþjónustan </h2>
         </div>
         <div class="menu__links">
           Um
@@ -176,17 +177,29 @@
       </div>
 
     </main>
-    <footer>
-      <span>
-        Fooþjónustan
-        123-4567
-      </span>
-      <span>
-        Opið 12-13 alla daga
-        Bargata 1
-        900 Foobar
-      </span>
-      © Fooþjónustan 2017
+
+    <footer class="footer">
+      <div class="footer__row">
+        <div class="col col-6 footer__col1">
+          <div class="footer__div">
+            <p class="footer__p">Fooþjónustan</p>
+            <p class="footer__p">123-4567</p>
+          </div>
+        </div>
+        <div class="col col-6 footer__col2">
+          <div class="footer__div">
+            <p class="footer__p">Opið 12-13 alla daga</p>
+            <p class="footer__p">Bargata 1</p>
+            <p class="footer__p">900 Foobar</p>
+          </div>
+        </div>
+      </div>
+      <hr class="footer__hr">
+      <div class="footer__row">
+        <div class="col col-3 footer__col">
+          <p class="footer__p__signature">© Fooþjónustan 2017</p>
+        </div>
+        </div>
     </footer>
   </body>
 </html>

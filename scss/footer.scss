@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #333;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  &__row {
+    display: flex;
+    justify-content: center;
+
+  }
+  &__col {
+    justify-content: center;
+
+    &1 {
+      flex-direction: row-reverse;
+    }
+  }
+  &__div {
+    display: flex;
+    padding-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  &__p {
+    max-width: max-content;
+    color: #fff;
+    align-self: center;
+
+    &__signature {
+      color: #666;
+    }
+  }
+
+  &__hr {
+    border-color: #fff;
+  }
+
+}
