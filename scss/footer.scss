@@ -9,35 +9,32 @@
   &__row {
     display: flex;
     justify-content: center;
-
   }
   &__col {
-    justify-content: center;
+    flex-direction: column;
 
     &1 {
-      flex-direction: row-reverse;
+      align-items: flex-end;
     }
   }
+
   &__div {
     display: flex;
-    padding-bottom: 1em;
     flex-direction: column;
-    align-items: center;
-    width: 50%;
+    flex-wrap: wrap;
   }
-
   &__p {
+    align-self: center;
     max-width: max-content;
     color: #fff;
-    align-self: center;
-
-    &__signature {
-      color: #666;
-    }
   }
 
   &__hr {
     border-color: #fff;
+  }
+
+  &__signature {
+    color: #666;
   }
 
 }

@@ -28,7 +28,7 @@ img {
 
 main {
   /* stylelint-disable-line */
-  min-width: 400px;
+  min-width: 320px;
   margin: 0 auto;
   overflow-x: hidden; }
 
@@ -202,40 +202,54 @@ main {
     display: flex;
     justify-content: center; }
   .footer__col {
-    justify-content: center; }
+    flex-direction: column; }
     .footer__col1 {
-      flex-direction: row-reverse; }
+      align-items: flex-end; }
   .footer__div {
     display: flex;
-    padding-bottom: 1em;
     flex-direction: column;
-    align-items: center;
-    width: 50%; }
+    flex-wrap: wrap; }
   .footer__p {
+    align-self: center;
     max-width: max-content;
-    color: #fff;
-    align-self: center; }
-    .footer__p__signature {
-      color: #666; }
+    color: #fff; }
   .footer__hr {
     border-color: #fff; }
+  .footer__signature {
+    color: #666; }
+
+.form__heading {
+  font-size: 24px; }
 
 .form__row {
+  margin-top: 4em;
+  margin-bottom: 4em;
   justify-content: space-around; }
+  @media (max-width: 400px) {
+    .form__row {
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: wrap; } }
+
+.form__col {
+  display: flex;
+  flex-direction: column; }
 
 .form__input {
   width: 100%; }
 
-.form__button {
-  min-width: 22vw; }
-
-.form__col {
+.form__div {
   display: flex;
-  justify-content: center; }
+  flex-direction: column;
+  margin-bottom: 15px; }
+  .form__div .radio {
+    margin-top: 15px; }
+    .form__div .radio__button {
+      margin-right: 15px; }
 
-.form__fieldset {
-  width: 100%;
-  border: 0; }
+.form__button {
+  min-width: 16em;
+  align-self: center; }
 
 .text__p {
   padding-bottom: 1em; }

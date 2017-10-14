@@ -1,23 +1,43 @@
 .form {
+  &__heading {
+    font-size: 24px;
+  }
   &__row {
+    margin-top: 4em;
+    margin-bottom: 4em;
     justify-content: space-around;
+
+    @media (max-width: 400px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
   }
 
   &__input {
     width: 100%;
   }
 
-  &__button {
-    min-width: 22vw;
-  }
-
-  &__col {
+  &__div {
     display: flex;
-    justify-content: center;
-  }
+    flex-direction: column;
+    margin-bottom: 15px;
 
-  &__fieldset {
-    width: 100%;
-    border: 0;
+      .radio {
+        margin-top: 15px;
+
+        &__button {
+          margin-right: 15px;
+        }
+      }
+  }
+  &__button {
+    min-width: 16em;
+    align-self: center;
   }
 }
