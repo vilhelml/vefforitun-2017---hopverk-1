@@ -142,27 +142,32 @@ main {
     .col-sm-1 {
       width: 8.33333%; } }
 
-.header {
-  /* stylelint-disable-line */ }
-  .header--index {
+.header--index {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 2em;
+  background: transparent url("img/bg.jpg") no-repeat fixed 50% 0;
+  background-size: contain;
+  justify-content: center; }
+  .header--index__title {
     display: flex;
-    width: 100%;
-    min-height: 100vh;
-    margin-bottom: 2em;
-    background: transparent url("img/bg.jpg") no-repeat fixed 50% 0;
-    background-size: contain;
+    padding: 15px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
     justify-content: center; }
-    .header--index__title {
-      display: flex;
-      padding: 15px;
-      text-align: center;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-  .header--about {
-    background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0; }
-  .header--purchase {
-    background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0; }
+
+.header--about {
+  background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0; }
+
+.header--purchase {
+  display: flex;
+  min-height: 500px;
+  color: #fff;
+  background-image: url("img/bg-subpage.jpg");
+  background-size: cover;
+  align-items: center; }
 
 .button {
   display: inline-block;
@@ -192,18 +197,14 @@ main {
 .form__input {
   width: 100%; }
 
-<<<<<<< HEAD
 .form__button {
   min-width: 22vw; }
 
 .form__col {
   display: flex;
   justify-content: center; }
-  .form__col fieldset {
-    width: 100%;
-    border: 0; }
-=======
-.form__col fieldset {
+
+.form__fieldset {
   width: 100%;
   border: 0; }
 
@@ -230,4 +231,3 @@ main {
 .text__blockquote-author {
   font-style: normal;
   font-size: 1em; }
->>>>>>> 497c503696067753a37caa1ca9d9112b4de09ea4

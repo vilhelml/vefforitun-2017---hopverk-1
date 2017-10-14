@@ -9,28 +9,39 @@
     <link rel="stylesheet" href="grid.css">
   </head>
   <body>
-    <main> 
-      <header class="header header--purchase">
-        <h1>Kaupa</h1>
-      </header>
+    <header class="header header--purchase">
+      <h1 class="heading heading--one">Kaupa</h1>
+    </header>
+    <main>
+
+      <div class="menu">
+        <div class="menu__title">
+            Fooþjónustan
+        </div>
+        <div class="menu__links">
+          Um
+          Kaupa
+        </div>
+      </div>
+
       <div class="row form__row">
 
           <div class="col col-4 form__col">
-            <fieldset>
-              <h2>
+            <fieldset class="form__fieldset">
+              <h2 class="heading heading--two">
               Persónuupplýsingar
               </h2>
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Nafn:</legend>
                 <input class="form__input" type="text" name="name">
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Kennitala:</legend>
                 <input class="form__input" type="number" name="kennitala">
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Kyn:</legend>
                 <div class="radio">
                 <input type="radio" name="radio">Kona</div>
@@ -41,20 +52,20 @@
                 <input type="radio" name="radio">Annað</div>
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Sími:</legend>
-                
+
                 <input class="form__input" type="text" name="kennitala" placeholder="+354 812 3456" pattern="+[0-9][0-9][0-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]">
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Heimilisfang:</legend>
-                
+
                 <input class="form__input" type="text" name="address">
               </div>
 
               <div class="form__div">
-                
+
                 <input type="checkbox" name="checkbox" checked>Skrá mig á póstlista
               </div>
 
@@ -62,12 +73,12 @@
           </div>
 
           <div class="col col-4 form__col">
-            <fieldset>
-              <h2>
+            <fieldset class="form__fieldset">
+              <h2 class="heading heading--two">
               Greiðsluupplýsingar
               </h2>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Greiða með:</legend>
                 <select class="form__input">
                   <option>
@@ -82,22 +93,22 @@
                 </select>
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Nafn á korti:</legend>
-                
+
                 <input class="form__input" type="text" name="address">
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Kortanúmer:</legend>
-                
+
                 <input class="form__input" type=text name="address" placeholder="5999-9999-9999-9999" pattern="[0-9][0-9][0-9]-{3}[0-9][0-9][0-9][0-9]">
               </div>
 
-              <div class="form__div"> 
+              <div class="form__div">
                 <legend>Gildistími:</legend>
-                
-                Mán                 
+
+                Mán
                   <select>
                     <option>
                       01
@@ -134,11 +145,11 @@
                     </option>
                     <option>
                       12
-                    </option>                   
+                    </option>
                   </select>
-                
-                
-                Mán                 
+
+
+                Mán
                   <select>
                     <option>
                       2017
@@ -151,14 +162,14 @@
                     </option>
                     <option>
                       2020
-                    </option>           
+                    </option>
                   </select>
-                
+
               </div>
 
             </fieldset>
           </div>
-        
+
         <div class="col col-12 form__col">
           <button class="button form__button"> Panta </button>
         </div>
@@ -173,7 +184,7 @@
       <span>
         Opið 12-13 alla daga
         Bargata 1
-        900 Foobar       
+        900 Foobar
       </span>
       © Fooþjónustan 2017
     </footer>
