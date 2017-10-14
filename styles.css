@@ -200,11 +200,13 @@ main {
   padding-right: 10px; }
   .footer__row {
     display: flex;
-    justify-content: center; }
+    justify-content: space-around; }
   .footer__col {
     flex-direction: column; }
     .footer__col1 {
       align-items: flex-end; }
+    .footer__col2 {
+      align-items: flex-start; }
   .footer__div {
     display: flex;
     flex-direction: column;

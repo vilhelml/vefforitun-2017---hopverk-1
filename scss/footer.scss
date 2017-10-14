@@ -8,13 +8,16 @@
 
   &__row {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   &__col {
     flex-direction: column;
 
     &1 {
       align-items: flex-end;
+    }
+    &2 {
+      align-items: flex-start;
     }
   }
 
