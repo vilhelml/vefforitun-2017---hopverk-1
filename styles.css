@@ -192,6 +192,7 @@ main {
 .form__input {
   width: 100%; }
 
+<<<<<<< HEAD
 .form__button {
   min-width: 22vw; }
 
@@ -201,3 +202,32 @@ main {
   .form__col fieldset {
     width: 100%;
     border: 0; }
+=======
+.form__col fieldset {
+  width: 100%;
+  border: 0; }
+
+.text__p {
+  padding-bottom: 1em; }
+
+.text__row {
+  display: flex;
+  margin-bottom: 1em;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch; }
+
+.text__blockquote {
+  align-self: center;
+  justify-content: center; }
+
+.text__blockquote-text {
+  font-size: 1.5em;
+  font-style: italic;
+  padding-bottom: 1em; }
+
+.text__blockquote-author {
+  font-style: normal;
+  font-size: 1em; }
+>>>>>>> 497c503696067753a37caa1ca9d9112b4de09ea4
