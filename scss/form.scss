@@ -1,9 +1,12 @@
 .form {
+  margin-right: $gutter;
+  margin-left: $gutter;
+
   &__heading {
-    margin-bottom: 15px;
+    font-family: "Roboto Slab", georgia, serif;
     font-size: 18px;
     font-weight: 500;
-    font-family: Roboto Slab, georgia, serif;
+    word-break: break-all;
   }
 
   &__row {
@@ -29,15 +32,32 @@
 
   &__div {
     display: flex;
-    margin-bottom: 15px;
+    margin-top: 15px;
     flex-direction: column;
 
     .radio {
-      margin-top: 15px;
+      padding-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: -15px;
+      }
 
       &__button {
         margin-right: 15px;
       }
+    }
+  }
+
+  &__select {
+    display: flex;
+
+    &-select {
+      margin-right: 15px;
+      flex-grow: 1;
+    }
+
+    &__content {
+      flex-grow: 1;
     }
   }
 

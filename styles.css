@@ -13,9 +13,7 @@ html {
 
 html {
   /* stylelint-disable-line */
-  margin-right: 20px;
-  margin-left: 20px;
-  font-family: Open Sans, helvetica, arial, sans-serif;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5; }
   @media (min-width: 1200px) {
@@ -46,15 +44,15 @@ main {
 .heading {
   width: 100%;
   padding: 0;
-  font-family: Roboto Slab, georgia, serif;
+  font-family: "Roboto Slab", georgia, serif;
   font-size: 2rem;
   border: 0; }
   .heading--one {
     font-size: 3rem;
     font-weight: bold; }
   .heading--two {
-    font-size: 1.5rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    font-size: 1.5rem; }
   .heading--three {
     font-size: 1rem; }
 
@@ -221,41 +219,48 @@ main {
   .footer__signature {
     color: #666; }
 
-.form__heading {
-  margin-bottom: 15px;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: Roboto Slab, georgia, serif; }
-
-.form__row {
-  margin-top: 4em;
-  margin-bottom: 4em;
-  justify-content: space-around; }
-  @media (max-width: 400px) {
-    .form__row {
-      flex-direction: column;
-      justify-content: flex-start;
-      flex-wrap: wrap; } }
-
-.form__col {
-  display: flex;
-  flex-direction: column; }
-
-.form__input {
-  width: 100%; }
-
-.form__div {
-  display: flex;
-  margin-bottom: 15px;
-  flex-direction: column; }
-  .form__div .radio {
-    margin-top: 15px; }
-    .form__div .radio__button {
-      margin-right: 15px; }
-
-.form__button {
-  min-width: 16em;
-  align-self: center; }
+.form {
+  margin-right: 20px;
+  margin-left: 20px; }
+  .form__heading {
+    font-family: "Roboto Slab", georgia, serif;
+    font-size: 18px;
+    font-weight: 500;
+    word-break: break-all; }
+  .form__row {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    justify-content: space-around; }
+    @media (max-width: 400px) {
+      .form__row {
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap; } }
+  .form__col {
+    display: flex;
+    flex-direction: column; }
+  .form__input {
+    width: 100%; }
+  .form__div {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column; }
+    .form__div .radio {
+      padding-bottom: 15px; }
+      .form__div .radio:last-child {
+        margin-bottom: -15px; }
+      .form__div .radio__button {
+        margin-right: 15px; }
+  .form__select {
+    display: flex; }
+    .form__select-select {
+      margin-right: 15px;
+      flex-grow: 1; }
+    .form__select__content {
+      flex-grow: 1; }
+  .form__button {
+    min-width: 16em;
+    align-self: center; }
 
 .text__p {
   padding-bottom: 1em; }
@@ -273,13 +278,13 @@ main {
   justify-content: center; }
 
 .text__blockquote-text {
+  padding-bottom: 1em;
   font-size: 1.5em;
-  font-style: italic;
-  padding-bottom: 1em; }
+  font-style: italic; }
 
 .text__blockquote-author {
-  font-style: normal;
-  font-size: 1em; }
+  font-size: 1em;
+  font-style: normal; }
 
 .text__about {
   margin-top: 4em;
