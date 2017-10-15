@@ -1,0 +1,32 @@
+.text {
+  &__p {
+    padding-bottom: 1em;
+
+  }
+
+  &__row {
+    display: flex;
+    margin-bottom: 1em;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  &__blockquote {
+    align-self: center;
+    justify-content: center;
+  }
+
+  &__blockquote-text {
+    font-size: 1.5em;
+    font-style: italic;
+    padding-bottom: 1em;
+  }
+
+  &__blockquote-author {
+    font-style: normal;
+    font-size: 1em;
+  }
+
+}

@@ -1,4 +1,4 @@
-.header {/* stylelint-disable-line */
+.header { // stylelint-disable-line
 
   &--index {
     display: flex;
@@ -24,6 +24,11 @@
   }
 
   &--purchase {
-    background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0;
+    display: flex;
+    min-height: 500px;
+    color: #fff;
+    background-image: url("img/bg-subpage.jpg");
+    background-size: cover;
+    align-items: center;
   }
 }
