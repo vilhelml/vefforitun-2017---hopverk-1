@@ -1,10 +1,13 @@
 .heading {
   width: 100%;
   padding: 0;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", georgia, serif;
+  font-size: 2rem;
   border: 0;
 
   &--one {
+    padding-left: 1rem;
+    font-family: "Roboto Slab", georgia, serif;
     font-size: 4.5rem; // 72px
     font-weight: bold;
   }

@@ -1,19 +1,18 @@
 <!doctype html>
-<html class="grid" lang="is">
-
+<html lang="is">
 <head>
   <meta charset="utf-8">
   <title>Verkefni 6 – síða</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
-  <header class="header header--purchase">
+  <header class="header header--subpage">
     <h1 class="heading heading--one">Kaupa</h1>
   </header>
-  <main>
+  <main class="form">
 
     <div class="menu">
       <div class="menu__title">
@@ -64,7 +63,7 @@
 
         <div class="form__div">
 
-          <input type="checkbox" name="checkbox" checked>Skrá mig á póstlista
+          <div class="form__checkbox"> <input type="checkbox" name="checkbox" checked> Skrá mig á póstlista</div>
         </div>
 
       </div>
@@ -79,7 +78,7 @@
         <div class="form__div">
           <legend>Greiða með:</legend>
           <select class="form__input">
-                  <option>
+                  <option selected>
                     Kreditkort
                   </option>
                   <option>
@@ -105,68 +104,72 @@
 
         <div class="form__div">
           <legend>Gildistími:</legend>
+          <div class="form__select">
+              <span class="form__select__content" >Mán</span>
+            <select class="form__select-select">
+                      <option selected>
+                        01
+                      </option>
+                      <option>
+                        02
+                      </option>
+                      <option>
+                        03
+                      </option>
+                      <option>
+                        04
+                      </option>
+                      <option>
+                        05
+                      </option>
+                      <option>
+                        06
+                      </option>
+                      <option>
+                        07
+                      </option>
+                      <option>
+                        08
+                      </option>
+                      <option>
+                        09
+                      </option>
+                      <option>
+                        10
+                      </option>
+                      <option>
+                        11
+                      </option>
+                      <option>
+                        12
+                      </option>
+                    </select>
+                     <span class="form__select__content">Ár</span>
+                     <select class="form__select-select">
+                      <option selected>
+                        2017
+                      </option>
+                      <option>
+                        2018
+                      </option>
+                      <option>
+                        2019
+                      </option>
+                      <option>
+                        2020
+                      </option>
+                    </select>
 
-          Mán
-          <select>
-                    <option>
-                      01
-                    </option>
-                    <option>
-                      02
-                    </option>
-                    <option>
-                      03
-                    </option>
-                    <option>
-                      04
-                    </option>
-                    <option>
-                      05
-                    </option>
-                    <option>
-                      06
-                    </option>
-                    <option>
-                      07
-                    </option>
-                    <option>
-                      08
-                    </option>
-                    <option>
-                      09
-                    </option>
-                    <option>
-                      10
-                    </option>
-                    <option>
-                      11
-                    </option>
-                    <option>
-                      12
-                    </option>
-                  </select> Ár
-          <select>
-                    <option>
-                      2017
-                    </option>
-                    <option>
-                      2018
-                    </option>
-                    <option>
-                      2019
-                    </option>
-                    <option>
-                      2020
-                    </option>
-                  </select>
-
+           </div>
         </div>
 
       </div>
 
 
       <div class="col col-12 form__col">
-        <button class="button form__button"> Panta </button>
+        <div class="form__div">
+          <button class="button form__button"> Panta </button>
+        </div>
       </div>
     </div>
 

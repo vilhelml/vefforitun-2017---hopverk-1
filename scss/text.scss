@@ -1,7 +1,6 @@
 .text {
   &__p {
     padding-bottom: 1em;
-
   }
 
   &__row {
@@ -19,14 +18,19 @@
   }
 
   &__blockquote-text {
+    padding-bottom: 1em;
     font-size: 1.5em;
     font-style: italic;
-    padding-bottom: 1em;
   }
 
   &__blockquote-author {
-    font-style: normal;
     font-size: 1em;
+    font-style: normal;
+  }
+
+  &__about {
+    margin-top: 4em;
+    margin-left: 1rem;
   }
 
 }
