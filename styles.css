@@ -51,12 +51,16 @@ main {
   border: 0; }
   .heading--one {
     font-size: 3rem;
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: Roboto Slab, georgia, serif;
+    padding-left: 1rem; }
   .heading--two {
     font-size: 1.5rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    font-family: Roboto Slab, georgia, serif; }
   .heading--three {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-family: Roboto Slab, georgia, serif; }
 
 .row {
   display: flex;
