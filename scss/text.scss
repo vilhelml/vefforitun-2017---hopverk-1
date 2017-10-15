@@ -1,7 +1,8 @@
 .text {
+
+
   &__p {
     padding-bottom: 1em;
-
   }
 
   &__row {
@@ -27,6 +28,11 @@
   &__blockquote-author {
     font-style: normal;
     font-size: 1em;
+  }
+
+  &__about {
+    margin-top: 4em;
+    margin-left: 1rem;
   }
 
 }

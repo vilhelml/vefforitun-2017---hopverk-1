@@ -53,7 +53,8 @@ main {
     font-size: 3rem;
     font-weight: bold; }
   .heading--two {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    padding-bottom: 1rem; }
   .heading--three {
     font-size: 1rem; }
 
@@ -161,7 +162,7 @@ main {
 .header--about {
   background: transparent url("img/bg-subpage.jpg") no-repeat fixed 0 0; }
 
-.header--purchase {
+.header--subpage {
   display: flex;
   min-height: 500px;
   color: #fff;
@@ -276,3 +277,7 @@ main {
 .text__blockquote-author {
   font-style: normal;
   font-size: 1em; }
+
+.text__about {
+  margin-top: 4em;
+  margin-left: 1rem; }
