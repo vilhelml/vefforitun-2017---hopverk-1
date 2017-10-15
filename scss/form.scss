@@ -1,6 +1,6 @@
 .form {
-  margin-right: $gutter;
   margin-left: $gutter;
+  margin-right: $gutter;
 
   &__heading {
     font-family: "Roboto Slab", georgia, serif;
@@ -10,11 +10,13 @@
   }
 
   &__row {
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 4*$gutter;
+    margin-bottom: 4*$gutter;
     justify-content: space-around;
 
     @media (max-width: 400px) {
+      margin-top: $gutter;
+      margin-bottom: $gutter;
       flex-direction: column;
       justify-content: flex-start;
       flex-wrap: wrap;
@@ -28,22 +30,25 @@
 
   &__input {
     width: 100%;
+    padding: 1px;
+    border: 1px solid #999;
+    border-radius: 2px;
   }
 
   &__div {
     display: flex;
-    margin-top: 15px;
+    margin-top: $gutter;
     flex-direction: column;
 
     .radio {
-      padding-bottom: 15px;
+      padding-bottom: $gutter;
 
       &:last-child {
-        margin-bottom: -15px;
+        margin-bottom: -$gutter;
       }
 
       &__button {
-        margin-right: 15px;
+        margin-right: $gutter;
       }
     }
   }
@@ -52,8 +57,10 @@
     display: flex;
 
     &-select {
-      margin-right: 15px;
+      margin-right: $gutter;
       flex-grow: 1;
+      border: 1px solid #999;
+      border-radius: 2px;
     }
 
     &__content {
