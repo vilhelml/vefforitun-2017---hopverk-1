@@ -33,14 +33,12 @@ html { /* stylelint-disable-line */
   }
 }
 
-
-
 img { /* stylelint-disable-line */
   max-width: 100%;
 }
 
 main { /* stylelint-disable-line */
-  min-width: $small-width - 4*$gutter;
+  min-width: $small-width - $gutter*4;
   //max-width: $max-width;
   margin: 0 auto;
 
@@ -53,6 +51,7 @@ main { /* stylelint-disable-line */
 @import "scss/heading";
 @import "scss/grid";
 @import "scss/header";
+@import "scss/index";
 @import "scss/button";
 @import "scss/footer";
 @import "scss/form";

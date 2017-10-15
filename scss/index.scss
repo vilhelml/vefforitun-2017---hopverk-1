@@ -1,0 +1,81 @@
+.checklist{ // stylelint-disable-line
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+
+  &__icon {
+    height: 1em;
+    padding-right: $gutter/2;
+  }
+
+  &__text {
+    padding-left: $gutter*2.5;
+    margin-bottom: $gutter*4;
+    font-weight: lighter;
+  }
+}
+
+.reviews {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+
+  @media (min-width: $max-width) {
+    margin-top: $gutter*5;
+  }
+}
+
+.review {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  &__portrait {
+    padding: $gutter*2;
+  }
+
+  &__image {
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  &__img {
+    margin-bottom: -1rem;
+  }
+
+  &__quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__reviewee {
+    margin-top: 0.5rem;
+  }
+
+  &__desc {
+    font-size: 0.8rem;
+    color: #555;
+  }
+}
+
+.kaupa {
+  width: 100%;
+  justify-content: space-around;
+
+  &__content {
+    display: flex;
+    margin: $gutter*3;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    width: 80%;
+    margin: $gutter;
+    font-size: 2.25rem;
+  }
+}
