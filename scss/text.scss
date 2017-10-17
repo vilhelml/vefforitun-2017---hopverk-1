@@ -13,8 +13,10 @@
   }
 
   &__blockquote {
-    align-self: center;
-    justify-content: center;
+    float: right;
+    width: 40%;
+    margin-bottom: $gutter*2;
+    margin-left: $gutter*3;
   }
 
   &__blockquote-text {

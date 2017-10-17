@@ -405,8 +405,10 @@ main {
   align-content: stretch; }
 
 .text__blockquote {
-  align-self: center;
-  justify-content: center; }
+  float: right;
+  width: 40%;
+  margin-bottom: 40px;
+  margin-left: 60px; }
 
 .text__blockquote-text {
   padding-bottom: 1em;
