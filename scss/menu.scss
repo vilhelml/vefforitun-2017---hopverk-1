@@ -10,11 +10,6 @@
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
 
-  .a {
-    color: #fff;
-    text-decoration: none;
-  }
-
   &__links {
     display: flex;
     align-items: baseline;
@@ -24,5 +19,10 @@
   &__title {
     font-size: 1.5rem;
     font-weight: 600;
+
+    &__link {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }

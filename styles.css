@@ -41,9 +41,6 @@ main {
   justify-content: space-between;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8); }
-  .menu .a {
-    color: #fff;
-    text-decoration: none; }
   .menu__links {
     display: flex;
     align-items: baseline;
@@ -51,6 +48,9 @@ main {
   .menu__title {
     font-size: 1.5rem;
     font-weight: 600; }
+    .menu__title__link {
+      color: #fff;
+      text-decoration: none; }
 
 .heading {
   width: 100%;
