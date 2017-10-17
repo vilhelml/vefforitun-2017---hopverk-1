@@ -21,7 +21,7 @@
   align-items: baseline;
   justify-content: center;
 
-  @media (min-width: $max-width) {
+  @media (max-width: $max-width) {
     margin-top: $gutter*5;
   }
 }
@@ -65,12 +65,20 @@
   width: 100%;
   justify-content: space-around;
 
+  @media (max-width: $max-width) {
+    margin-top: $gutter*3;
+  }
+
   &__content {
     display: flex;
     margin: $gutter*3;
     text-align: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  .link {
+    width: 100%;
   }
 
   .button {

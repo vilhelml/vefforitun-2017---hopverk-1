@@ -1,4 +1,39 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .header { // stylelint-disable-line
+
+  .fade {
+    animation: fade-in ease-in 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    &--one {
+      opacity: 0;
+      animation-delay: 1s;
+    }
+
+    &--two {
+      opacity: 0;
+      animation-delay: 2s;
+    }
+
+    &--three {
+      opacity: 0;
+      animation-delay: 3s;
+    }
+  }
 
   &--index {
     display: flex;
@@ -8,6 +43,10 @@
     background: transparent url("img/bg.jpg") no-repeat fixed 50% 0;
     background-size: cover;
     justify-content: center;
+
+    @media (max-width: $max-width) {
+      margin-bottom: $gutter*7;
+    }
 
     &__title {
       display: flex;
@@ -20,6 +59,7 @@
       .button {
         padding: 1rem;
         margin-top: $gutter*2;
+        font-size: 1.5rem;
       }
     }
   }
