@@ -32,4 +32,10 @@
     padding-bottom: 1rem;
     font-weight: bolder;
   }
+
+  &--break {
+    @media (max-width: $small-width) {
+      word-wrap: break-word;
+    }
+  }
 }

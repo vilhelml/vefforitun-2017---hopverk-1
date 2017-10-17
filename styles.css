@@ -74,6 +74,9 @@ main {
   .heading--about {
     padding-bottom: 1rem;
     font-weight: bolder; }
+  @media (max-width: 400px) {
+    .heading--break {
+      word-wrap: break-word; } }
 
 .row {
   display: flex;
@@ -133,7 +136,9 @@ main {
     .col-md-2 {
       width: 16.66667%; }
     .col-md-1 {
-      width: 8.33333%; } }
+      width: 8.33333%; }
+    .col-md-about {
+      float: right; } }
   @media (max-width: 400px) {
     .col-sm-12 {
       width: 100%; }

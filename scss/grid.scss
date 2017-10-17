@@ -113,6 +113,9 @@
       &-1 {
         @include columns(1);
       }
+      &-about {
+        float: right;
+      }
     }
   }
 
