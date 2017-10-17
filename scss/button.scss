@@ -21,4 +21,17 @@
     color: #eee;
     background-color: #333;
   }
+
+
+  &__about {
+    color: #eee;
+    border: none;
+    transition: none;
+    text-decoration: none;
+    margin-right: 0.5rem;
+
+    &:focus {
+      outline: 0;
+    }
+  }
 }
