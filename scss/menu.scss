@@ -5,7 +5,18 @@
   left: 0;
   z-index: 2;
   display: flex;
+  padding: 0.5rem;
   justify-content: space-between;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
+
+  .a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__links {
+    display: flex;
+    align-items: baseline;
+  }
 }
