@@ -19,8 +19,12 @@
         <h4 class="heading heading-four">Fooþjónustan</h4>
       </div>
       <div class="menu__links">
-        <a href="about.html"><button class="button button--um">Um</button></a>
-        <a href="purchase.html"><button class="button">Kaupa</button></a>
+        <form action="purchase.html">
+          <input type="submit" class="button button--um" value="Um" />
+        </form>
+        <form action="purchase.html">
+          <input type="submit" class="button" value="Kaupa" />
+        </form>
       </div>
     </div>
 
@@ -37,7 +41,7 @@
 
         <div class="form__div">
           <label>Kennitala:</label>
-          <input class="form__input" type="number" name="kennitala">
+          <input class="form__input" type="number" name="kennitala" placeholder="123456-7890">
         </div>
 
         <div class="form__div">
@@ -53,7 +57,7 @@
         <div class="form__div">
           <label>Sími:</label>
 
-          <input class="form__input" type="text" name="kennitala" placeholder="+354 812 3456" pattern="+[0-9][0-9][0-9] [0-9][0-9][0-9] [0-9][0-9][0-9][0-9]">
+          <input class="form__input" type="text" name="kennitala" placeholder="+354 812 3456">
         </div>
 
         <div class="form__div">
@@ -100,7 +104,7 @@
         <div class="form__div">
           <label>Kortanúmer:</label>
 
-          <input class="form__input" type=text name="address" placeholder="5999-9999-9999-9999" pattern="[0-9][0-9][0-9]-{3}[0-9][0-9][0-9][0-9]">
+          <input class="form__input" type="text" name="address" placeholder="5999-9999-9999-9999">
         </div>
 
         <div class="form__div">
