@@ -46,7 +46,11 @@ main {
     text-decoration: none; }
   .menu__links {
     display: flex;
-    align-items: baseline; }
+    align-items: baseline;
+    padding: 0.5rem; }
+  .menu__title {
+    font-size: 1.5rem;
+    font-weight: 600; }
 
 .heading {
   width: 100%;
@@ -67,6 +71,9 @@ main {
     font-size: 1.5rem; }
   .heading--light {
     font-weight: lighter; }
+  .heading--about {
+    padding-bottom: 1rem;
+    font-weight: bolder; }
 
 .row {
   display: flex;
@@ -271,6 +278,7 @@ main {
     font-size: 2.25rem; }
 
 .button {
+  appearance: button;
   display: inline-block;
   max-width: 256px;
   padding: 0.5rem;
@@ -294,17 +302,23 @@ main {
   .button--um {
     background-color: transparent;
     border-color: transparent; }
+    .button--um:hover {
+      background-color: transparent;
+      border-color: transparent; }
 
 .footer {
   display: flex;
   width: 100%;
   padding-right: 10px;
   padding-left: 10px;
+  margin-top: 3rem;
   flex-direction: column;
   background-color: #333; }
   .footer__row {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
   .footer__col {
     flex-direction: column; }
     .footer__col1 {
